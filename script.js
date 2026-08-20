@@ -333,7 +333,7 @@ function setupNavigation() {
     });
 
     // Theme toggle
-    const savedTheme = localStorage.getItem('portfolio-theme') || 'light';
+    const savedTheme = localStorage.getItem('portfolio-theme') || 'dark';
     document.documentElement.setAttribute('data-theme', savedTheme);
     updateThemeIcon(savedTheme);
 
