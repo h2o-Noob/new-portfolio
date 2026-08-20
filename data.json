@@ -1,0 +1,156 @@
+{
+    "header": {
+      "name": "Arindam Raina",
+      "phone": "+91 7303207743",
+      "email": "arindamraina7743@gmail.com",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    },
+    "education": [
+      {
+        "degree": "M.Tech (Computer Science)",
+        "institute": "Indian Institute of Science (IISc), Bangalore",
+        "year": "2025-2027",
+        "score": "8/10"
+      },
+      {
+        "degree": "B.Tech (ECE)",
+        "institute": "Guru Gobind Singh Indraprastha University, Delhi",
+        "year": "2020-2024",
+        "score": "8.33/10"
+      }
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": ["Python", "SQL", "C++", "Java", "JavaScript"]
+      },
+      {
+        "category": "Data Science & ML",
+        "items": ["Pandas", "NumPy", "Scikit-learn", "spaCy", "NLTK", "PyTorch", "SBERT", "FAISS"]
+      },
+      {
+        "category": "Tools & Visualization",
+        "items": ["Tableau", "PowerBI", "Docker", "Git", "PostgreSQL", "Apache Calcite", "Streamlit"]
+      },
+      {
+        "category": "Web Technologies",
+        "items": ["React.js", "Node.js", "Flask", "HTML/CSS"]
+      }
+    ],
+    "workExperience": [
+      {
+        "company": "Accenture",
+        "title": "Analyst - Data Science",
+        "location": "Gurgaon, India",
+        "duration": "Nov 2024 - Aug 2025",
+        "bullets": [
+          "Consulted for a telecom client to architect a Next-Best-Offer (NBO) propensity model using **XGBoost** and **Logistic Regression**, shifting from rule-based targeting to predictive cross-selling and improving **conversion recall by 18%**.",
+          "Extracted and engineered **40+ behavioral and usage features** from **2M+ raw SQL billing records**, establishing a Python automated pipeline to monitor **Population Stability Index (PSI)** and prevent **data drift** in production.",
+          "Deployed the optimization engine as a **Flask microservice** directly into the client's CRM, automating real-time personalized product recommendations for **50,000 daily touchpoints** and driving an estimated **8% uplift in Average Revenue Per User (ARPU)**."
+        ]
+      },
+      {
+        "company": "FnB Entertainment",
+        "title": "Data Analyst",
+        "location": "Remote",
+        "duration": "Feb 2023 - Apr 2023",
+        "bullets": [
+          "Analyzed sales and user engagement data to identify top-performing events and **customer segments**.",
+          "Built interactive dashboards in **Power BI** tracking KPIs like repeat purchase rate, average order value, and regional trends, improving reporting **efficiency by 40%**.",
+          "Identified that **22% of high-value customers dropped off** after their first purchase; performed **cohort analysis** and recommended targeted campaigns that **increased repeat purchases by 12%**.",
+          "Automated weekly sales summary reports using Python (**Pandas + Matplotlib**), reducing manual reporting time from **4 hours to 30 minutes**."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Ai based Energy Cost Optimisation",
+        "technologies": "PyTorch, XGBoost",
+        "duration": "Sep 2025 - Dec 2025",
+        "bullets": [
+          "Predicted 10-minute household energy consumption across **19,000+ records** using weather and time data, achieving an average **prediction error of just 34 Watt-hours**.",
+          "Identified **215 abnormal energy events (1% of the test data)** by calculating the difference between expected and actual power usage to flag unexplained equipment spikes.",
+          "Wrote a scheduling script to shift **30% of flexible daily appliance usage** away from expensive peak-pricing hours, proving a **6.46% reduction in total electricity costs**."
+        ]
+      },
+      {
+        "name": "Landscape Classification",
+        "technologies": "CNNs, Tensorflow, PyTorch",
+        "duration": "Jan 2026",
+        "bullets": [
+          "Engineered a custom **6-class landscape image classifier** in TensorFlow, designing a multi-layer CNN coupled with a spatial and color **data augmentation pipeline** to extract invariant topological features.",
+          "Diagnosed semantic boundary failures (e.g., Glacier vs. Sea) via confusion matrix analysis, successfully identifying and mitigating model color bias by injecting targeted **RandomContrast** transformations.",
+          "Optimized spatial feature extraction by implementing custom **Convolutional Block Attention Modules (CBAM)**, allowing the network to dynamically suppress urban background noise and improve **accuracy to 0.86**."
+        ]
+      },
+      {
+        "name": "Graph Neural Network for Anti-Money Laundering",
+        "technologies": "GNNs, PyTorch Geometric",
+        "duration": "Dec 2025",
+        "bullets": [
+          "Designed and trained a **Temporal-Aware Heterogeneous GNN** using PyTorch Geometric to detect complex, multi-hop money laundering rings.",
+          "Engineered a relational graph topology from the IBM AML dataset (**7M+ transactions**), mapping discrete Bank and Account entities alongside sequential transaction timestamps.",
+          "Overcame extreme class imbalance (**0.05% laundering prevalence**) by implementing localized mini-batching (**Link Neighbor Loader**) and heavily weighted loss functions.",
+          "Outperformed traditional tabular baselines (like XGBoost), achieving a **PR-AUC of 0.68** and an **F1-score of 0.62** by successfully capturing topological transaction sequences."
+        ]
+      }
+    ],
+    "research": [
+      {
+        "title": "Knowledge Distillation on Complex CNNs",
+        "technologies": "PyTorch, Deep Learning",
+        "duration": "Jan 2026 – Ongoing",
+        "bullets": [
+          "Worked on a teacher–student distillation setup for image classification using a **ResNet-18 teacher** and two student models (real and complex-valued).",
+          "Designed and implemented a **magnitude–phase KL-divergence loss** for distilling complex-valued logits.",
+          "Used **IHSV transformation** to train the complex student on complex-valued image inputs.",
+          "Evaluated performance on **CIFAR-10, CIFAR-100, and TinyImageNet** datasets.",
+          "Reduced model size from **11.2M to 2.8M parameters (~75% smaller)** with minimal accuracy drop.",
+          "Complex student achieved **5–10% higher train and test accuracy** compared to the real-valued student."
+        ]
+      },
+      {
+        "title": "An Empirical Study of Strategic Reasoning in Large Language Models",
+        "technologies": "LLMs, Experimental Evaluation",
+        "duration": "",
+        "bullets": [
+          "Built a dataset of **game-theoretic scenarios** (Prisoner's Dilemma, Ultimatum Game) to test decision-making in LLMs.",
+          "Ran experiments across **open-source and API-based** language models.",
+          "Defined evaluation metrics such as **equilibrium accuracy, cooperation rate, and strategy consistency**.",
+          "Analyzed results using statistical methods to study trends across different **model sizes**.",
+          "Developed an **automated pipeline** for prompt generation, response collection, and scoring.",
+          "Documented findings with clear plots and technical reports."
+        ]
+      },
+      {
+        "title": "Uniform Laws of Large Numbers for Set-Valued Mappings and Subdifferentials of Random Functions",
+        "technologies": "",
+        "duration": "",
+        "bullets": [
+          "Presented and explained theoretical results on **uniform convergence in set-valued mappings**.",
+          "Discussed implications for **stochastic optimization** and **learning theory**."
+        ]
+      }
+    ],
+    "achievements": [
+      "Selected for **Amazon ML Summer School 2026**.",
+      "**Flipkart GRID 8.0 National Finalist**.",
+      "Secured **under 200 AIR in GATE CS 2025**.",
+      "Selected for **MLH Fellowship Winter 2022**.",
+      "Selected for **IT Officer** post in **Punjab National Bank**.",
+      "Solved **300+ challenges** on DSA, SQL, and UNIX platforms.",
+      "**Open-source contributor** to Circuitverse."
+    ],
+    "coursework": [
+      "Probability & Statistics",
+      "Algorithms / DSA",
+      "Linear Algebra",
+      "Optimisation",
+      "Machine Learning",
+      "Calculus (Single + Multi)",
+      "Differential Equations",
+      "DBMS",
+      "Estimation Theory"
+    ]
+  }
